@@ -1,0 +1,26 @@
+body{
+    min-height:100vh; /* viewport height so resizes correctly for screen size*/
+    display: flex;
+    justify-content: center;/* Places horizontially in center*/
+    align-items: center; /* Places vert in center*/
+}
+
+.colorBtn{
+    padding: 0.25rem 0.5rem;
+    border: 3px solid #fefefe;
+    border-radius: 7px;
+    color: #fefefe;
+    background:rgba(0,0,0,1);
+    font-size: 1.55rem;
+    text-transform: capitalize;
+    cursor:pointer;
+    outline: none;
+    font-family: Arial Rounded, "Arial Black", sans-serif;
+
+}
+
+.colorBtn:hover{
+    background: rgba(0,0,0,0.1);
+    font-size: 1.75rem;
+    transition: all 400ms;
+}
